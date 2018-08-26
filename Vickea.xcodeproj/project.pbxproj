@@ -12,6 +12,8 @@
 		7A00C31B2124C6C6005F5D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A00C3192124C6C6005F5D2C /* Main.storyboard */; };
 		7A00C31D2124C6CA005F5D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A00C31C2124C6CA005F5D2C /* Assets.xcassets */; };
 		7A00C3202124C6CA005F5D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A00C31E2124C6CA005F5D2C /* LaunchScreen.storyboard */; };
+		7A1FB9A62129B2EB005C76E9 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1FB9A52129B2EB005C76E9 /* itemCell.swift */; };
+		7A1FB9A82129BBD6005C76E9 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1FB9A72129BBD6005C76E9 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7A00C31C2124C6CA005F5D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A00C31F2124C6CA005F5D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A00C3212124C6CA005F5D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1FB9A52129B2EB005C76E9 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		7A1FB9A72129BBD6005C76E9 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		7A00C3142124C6C6005F5D2C /* Vickea */ = {
 			isa = PBXGroup;
 			children = (
+				7A1FB9A72129BBD6005C76E9 /* Models.scnassets */,
 				7A00C3152124C6C6005F5D2C /* AppDelegate.swift */,
 				7A00C3172124C6C6005F5D2C /* ViewController.swift */,
 				7A00C3192124C6C6005F5D2C /* Main.storyboard */,
 				7A00C31C2124C6CA005F5D2C /* Assets.xcassets */,
 				7A00C31E2124C6CA005F5D2C /* LaunchScreen.storyboard */,
 				7A00C3212124C6CA005F5D2C /* Info.plist */,
+				7A1FB9A52129B2EB005C76E9 /* itemCell.swift */,
 			);
 			path = Vickea;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A00C3202124C6CA005F5D2C /* LaunchScreen.storyboard in Resources */,
+				7A1FB9A82129BBD6005C76E9 /* Models.scnassets in Resources */,
 				7A00C31D2124C6CA005F5D2C /* Assets.xcassets in Resources */,
 				7A00C31B2124C6C6005F5D2C /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A00C3182124C6C6005F5D2C /* ViewController.swift in Sources */,
+				7A1FB9A62129B2EB005C76E9 /* itemCell.swift in Sources */,
 				7A00C3162124C6C6005F5D2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
